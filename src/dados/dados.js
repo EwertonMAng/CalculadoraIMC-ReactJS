@@ -1,0 +1,42 @@
+export const dados = [
+    {
+      min: 0,
+      max: 18.4,
+      classificacao: "Menor que 18,5",
+      info: "Magreza",
+      obesidade: "0",
+      infoClasse: "medium",
+    },
+    {
+      min: 18.5,
+      max: 24.9,
+      classificacao: "Entre 18,5 e 24,9",
+      info: "Normal",
+      obesidade: "0",
+      infoClasse: "good",
+    },
+    {
+      min: 25,
+      max: 29.9,
+      classificacao: "Entre 25,0 e 29,9",
+      info: "Sobrepeso",
+      obesidade: "I",
+      infoClasse: "low",
+    },
+    {
+      min: 30,
+      max: 39.9,
+      classificacao: "Entre 30,0 e 39,9",
+      info: "Obesidade",
+      obesidade: "II",
+      infoClasse: "medium",
+    },
+    {
+      min: 40,
+      max: 99,
+      classificacao: "Maior que 40,0",
+      info: "Obesidade grave",
+      obesidade: "III",
+      infoClasse: "high",
+    },
+  ];

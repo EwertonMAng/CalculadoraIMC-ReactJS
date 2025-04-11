@@ -1,0 +1,36 @@
+#calculadora-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.formulario-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.controle-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+.controle-form label {
+    font-weight: bold;
+    margin-bottom: .6rem;
+    color: #ccc;
+
+}
+
+.controle-form input {
+    padding: 1rem 0.5rem;
+
+}
+
+.controle-acao {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+}
